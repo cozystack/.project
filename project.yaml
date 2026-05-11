@@ -1,0 +1,66 @@
+# .project metadata for Cozystack
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set cncf_slack_channel
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "cozystack"
+name: "Cozystack"
+description: "Cozystack is a free PaaS platform and framework for building private clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs and Kubernetes clusters."
+type: "project"
+project_lead: "aobort" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel
+# cncf_slack_channel: "#cozystack"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-03-04T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/322" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/cozystack/cozystack"
+
+website: "https://cozystack.io"
+
+artwork: "https://landscape.cncf.io/logos/cozystack.svg"
+
+adopters:
+  path: "https://github.com/cozystack/cozystack/blob/main/ADOPTERS.md"
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "cozystack/cozystack"
+
+
+security:
+  policy:
+    path: "https://github.com/cozystack/cozystack/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/cozystack/cozystack/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/cozystack/cozystack/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cozystack/cozystack/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/cozystack/cozystack/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/cozystack/cozystack/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Scheduling & Orchestration"
+
+# CLOMonitor Score: 79/100
+# Documentation: 100 | License: 86 | Best Practices: 68 | Security: 59
