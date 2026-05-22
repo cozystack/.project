@@ -8,8 +8,6 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - aobort
-          - gecube
           - kingdonb
           - klinch0
           - kvaps
@@ -23,4 +21,3 @@ maintainers:
           - lexfrei
           - myasnikovdaniil
           - sircthulhu
-          - kvapsova
