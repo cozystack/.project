@@ -1,25 +1,30 @@
 # .project metadata for Cozystack
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set cncf_slack_channel
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "cozystack"
 name: "Cozystack"
-description: "Cozystack is a free PaaS platform and framework for building private clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs and Kubernetes clusters."
+description: "Cozystack is a free PaaS platform and framework for building private clouds and providing users/customers with managed Kubernetes, KubeVirt-based VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs and Kubernetes clusters."
 type: "project"
-project_lead: "aobort" # TODO: AUTO-DETECTED — please verify
-# TODO: Set CNCF Slack channel
-# cncf_slack_channel: "#cozystack"
+project_lead: "kvaps"
+cncf_slack_channel: "#cozystack"
 
 maturity_log:
   - phase: "sandbox"
     date: "2025-03-04T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/322" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/322"
 
 repositories:
   - "https://github.com/cozystack/cozystack"
+  - "https://github.com/cozystack/talm"
+  - "https://github.com/cozystack/boot-to-talos"
+  - "https://github.com/cozystack/cozypkg"
+  - "https://github.com/cozystack/cozy-proxy"
+  - "https://github.com/cozystack/cozystack-telemetry-server"
+  - "https://github.com/cozystack/talos-bootstrap"
+  - "https://github.com/cozystack/cozystack-ui"
+  - "https://github.com/cozystack/blockstor"
+  - "https://github.com/aenix-io/etcd-operator"
 
 website: "https://cozystack.io"
 
@@ -28,10 +33,8 @@ artwork: "https://landscape.cncf.io/logos/cozystack.svg"
 adopters:
   path: "https://github.com/cozystack/cozystack/blob/main/ADOPTERS.md"
 
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "cozystack/cozystack"
-
+package_managers:
+  oci: "ghcr.io/cozystack/cozystack"
 
 security:
   policy:
@@ -49,8 +52,8 @@ legal:
   license:
     path: "https://github.com/cozystack/cozystack/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
@@ -61,6 +64,3 @@ documentation:
 landscape:
   category: "Orchestration & Management"
   subcategory: "Scheduling & Orchestration"
-
-# CLOMonitor Score: 79/100
-# Documentation: 100 | License: 86 | Best Practices: 68 | Security: 59
