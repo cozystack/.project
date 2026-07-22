@@ -1,3 +1,3 @@
 # CODEOWNERS for .project metadata repository
 # Changes to project metadata require maintainer review.
-* @aobort @gecube @kingdonb @klinch0 @kvaps @lllamnyp @matthieu-robin @mattia-eleuteri @nbykov0 @tym83 @IvanHunters @androndo @lexfrei @myasnikovdaniil @sircthulhu @absoludity @andresmgot @antgamdia @arapulido @beni0888 @castelblanque @cscazorla @dlaloue-vmware @gfichtenholt @migmartri @ppbaena @prydonius @satya-dillikar @controller-tools-admins @controller-tools-approvers @controller-tools-maintainers @smarterclayton @deads2k @sttts @liggitt @caesarxuchao @jpbetz @leonnicolas @squat 
+* @gecube @kingdonb @kvaps @lllamnyp @matthieu-robin @mattia-eleuteri @nbykov0 @tym83
