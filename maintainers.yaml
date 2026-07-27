@@ -10,7 +10,6 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - gecube
           - IvanHunters
           - kingdonb
           - kvaps
@@ -19,7 +18,6 @@ maintainers:
           - matthieu-robin
           - mattia-eleuteri
           - myasnikovdaniil
-          - nbykov0
           - tym83
       - name: "reviewers"
         members:
