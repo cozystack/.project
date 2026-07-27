@@ -1,6 +1,8 @@
 # Maintainer roster for Cozystack
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
-
+#
+# Mirrors MAINTAINERS.md in cozystack/cozystack. The reviewers team mirrors the
+# Reviewers table there, whose area-to-owner mapping lives in .github/CODEOWNERS.
 
 maintainers:
   - project_id: "cozystack"
@@ -9,10 +11,18 @@ maintainers:
       - name: "project-maintainers"
         members:
           - gecube
+          - IvanHunters
           - kingdonb
           - kvaps
+          - lexfrei
           - lllamnyp
           - matthieu-robin
           - mattia-eleuteri
+          - myasnikovdaniil
           - nbykov0
           - tym83
+      - name: "reviewers"
+        members:
+          - androndo
+          - scooby87
+          - sircthulhu

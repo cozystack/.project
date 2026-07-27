@@ -9,7 +9,9 @@ slug: "cozystack"
 name: "Cozystack"
 description: "Cozystack is a free PaaS platform and framework for building private clouds and providing users/customers with managed Kubernetes,  KubeVirt-based VMs, databases as a service, NATS, message brokers, etc. with GPU support in VMs and Kubernetes clusters."
 type: "project"
-project_lead: "aobort" # TODO: AUTO-DETECTED — please verify
+project_lead:
+  - "kvaps"
+  - "tym83"
 # TODO: Set CNCF Slack channel
 # cncf_slack_channel: "#cozystack"
 
@@ -44,6 +46,12 @@ governance:
     path: "https://github.com/cozystack/cozystack/blob/main/CONTRIBUTING.md"
   code_of_conduct:
     path: "https://github.com/cozystack/cozystack/blob/main/CODE_OF_CONDUCT.md"
+  roles_and_teams:
+    path: "https://github.com/cozystack/cozystack/blob/main/MAINTAINERS.md"
+  contributor_ladder:
+    path: "https://github.com/cozystack/cozystack/blob/main/CONTRIBUTOR_LADDER.md"
+  decision_making_process:
+    path: "https://github.com/cozystack/cozystack/blob/main/GOVERNANCE.md"
 
 legal:
   license:
