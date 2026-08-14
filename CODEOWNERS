@@ -1,3 +1,8 @@
-# CODEOWNERS for .project metadata repository
-# Changes to project metadata require maintainer review.
-* @gecube @kingdonb @kvaps @lllamnyp @matthieu-robin @mattia-eleuteri @nbykov0 @tym83
+# Owners of this repository's CNCF project metadata.
+#
+# Mirrors the maintainer roster in maintainers.yaml, which in turn mirrors
+# MAINTAINERS.md in cozystack/cozystack. Keep the three in sync: a handle
+# listed here without write access on this repository is silently ignored by
+# GitHub, so a stale entry looks like ownership without providing any.
+
+* @IvanHunters @kingdonb @kvaps @lexfrei @lllamnyp @matthieu-robin @mattia-eleuteri @myasnikovdaniil @tym83

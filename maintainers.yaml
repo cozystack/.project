@@ -8,7 +8,7 @@ maintainers:
   - project_id: "cozystack"
     org: "cozystack"
     teams:
-      - name: "project-maintainers"
+      - name: "maintainers"
         members:
           - IvanHunters
           - kingdonb
