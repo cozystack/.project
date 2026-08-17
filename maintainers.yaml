@@ -3,12 +3,17 @@
 #
 # Mirrors MAINTAINERS.md in cozystack/cozystack. The reviewers team mirrors the
 # Reviewers table there, whose area-to-owner mapping lives in .github/CODEOWNERS.
+#
+# The team name `project-maintainers` is fixed by the dot-project schema, which
+# rejects the file without it. It is a schema identifier, not a mirror of the
+# GitHub team name -- renaming it to match the org's `maintainers` team makes
+# CNCF automation drop the roster.
 
 maintainers:
   - project_id: "cozystack"
     org: "cozystack"
     teams:
-      - name: "maintainers"
+      - name: "project-maintainers"
         members:
           - IvanHunters
           - kingdonb
