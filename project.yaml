@@ -9,7 +9,11 @@ type: "project"
 project_lead:
   - "kvaps"
   - "tym83"
-cncf_slack_channel: "#cozystack"
+slack_channels:
+  - name: "#cozystack"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/archives/C08BQJD95J7"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
@@ -18,15 +22,21 @@ maturity_log:
 
 repositories:
   - "https://github.com/cozystack/cozystack"
-  - "https://github.com/cozystack/talm"
-  - "https://github.com/cozystack/boot-to-talos"
-  - "https://github.com/cozystack/cozypkg"
+  - "https://github.com/cozystack/etcd-operator"
   - "https://github.com/cozystack/cozy-proxy"
-  - "https://github.com/cozystack/cozystack-telemetry-server"
+  - "https://github.com/cozystack/keycloak-kms-proxy"
+  - "https://github.com/cozystack/local-ccm"
+  - "https://github.com/cozystack/cozystack-scheduler"
+  - "https://github.com/cozystack/ingress-nginx-with-protobuf-exporter"
+  - "https://github.com/cozystack/talm"
+  - "https://github.com/cozystack/cozyhr"
+  - "https://github.com/cozystack/cozyvalues-gen"
+  - "https://github.com/cozystack/terraform-provider-cozystack"
+  - "https://github.com/cozystack/ansible-cozystack"
+  - "https://github.com/cozystack/boot-to-talos"
   - "https://github.com/cozystack/talos-bootstrap"
-  - "https://github.com/cozystack/cozystack-ui"
+  - "https://github.com/cozystack/talos-meta-tool"
   - "https://github.com/cozystack/blockstor"
-  - "https://github.com/aenix-io/etcd-operator"
 
 website: "https://cozystack.io"
 
@@ -36,7 +46,7 @@ adopters:
   path: "https://github.com/cozystack/cozystack/blob/main/ADOPTERS.md"
 
 package_managers:
-  oci: "ghcr.io/cozystack/cozystack"
+  oci: "ghcr.io/cozystack/cozystack/cozy-installer"
 
 security:
   policy:
