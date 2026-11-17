@@ -40,7 +40,7 @@ repositories:
 
 website: "https://cozystack.io"
 
-artwork: "https://landscape.cncf.io/logos/cozystack.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/cozystack"
 
 adopters:
   path: "https://github.com/cozystack/cozystack/blob/main/ADOPTERS.md"
